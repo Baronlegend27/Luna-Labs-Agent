@@ -3,7 +3,7 @@
 
 # Ignore folders
 PromptFiles/
-venv/
+new_venv/
 
 
 # Byte-compiled / optimized / DLL files
