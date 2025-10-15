@@ -1,0 +1,35 @@
+System Prompt {sys_prompt} This defines the evaluator’s role and analytical focus — describes who they are, their expertise, and what lens they should apply when reviewing the solution (e.g., viability, risk, commercialization potential).
+Solution Name {solution_name} The official name or identifier of the proposed product, service, or innovation being evaluated.
+Specific Problem Being Addressed {addressed_problem} This states the problem or pain point that the solution aims to solve
+Beachhead Persona {init_customer} The initial target customer or end user most directly affected by the problem and most likely to adopt the solution early.
+Status Quo Solution {current_solution} How the problem is currently being solved today, including existing products, workarounds, or methods in use.
+Solution Description {your_solution_description} Summarizes how the proposed solution works and how it effectively addresses the defined problem. While also unique value proposition or differentiating factor that sets the solution apart from existing alternatives.
+Primary Market Sector {primary_market_sector} The main industry or domain in which the solution is designed to operate or create impact.
+Market Geographic Focus {market_geographic_focus} The primary geographic regions or markets where the solution will be marketed, deployed, or scaled.
+Primary Expected Business Model {primary_expected_business_model} The main method by which the solution intends to generate revenue or economic value.
+Secondary Contemplated Model {secondary_expected_business_model} Identifies any additional or alternative revenue models being considered for future development or partnerships.
+Number of Paying Customers {paying_customers} How many customers they think will pay for the product.
+Number of Pilots and POCs {pilot_poc_count} The number of pilot programs or proof-of-concept implementations have been conducted to test and validate the solution.
+Number of Team Members Involved in Transfer or Advisory Roles {transferring_team_members}: Specify how many team members would either transfer to the acquiring entity or remain available in an advisory or consulting capacity if the solution were sold.
+Solution Stage {solution_stage} The current maturity level of the solution.
+Total Funding to Date {total_funding_td} Reports the total amount of external or internal funding the solution has received up to now.
+Monthly Burn Rate (If Active) {monthly_burn_active} States the current monthly operating costs while the project or company is active.
+Prior Monthly Burn Rate (If Inactive) {monthly_burn_inactive} Reports the previous monthly burn rate when the project was active, if it’s currently inactive.
+Known Competitors {known_competitors} Nonexaustive list of competitors
+Solution Type {solution_type} Categorizes the nature of the solution (e.g., software, hardware, materials, service, or IP).
+Known Supply Chain Requirements {known_supply_chain_requirements} Describes any essential supply chain dependencies, material sources, or logistical needs required to deliver the solution.
+12-Month Projected Revenue {projected_revenue} States the anticipated revenue expected to be generated in the next twelve months.
+IP Status {ip_status} Defines the current intellectual property protection status like as trade secret, patent, provisional, or none.
+Evaluator Persona {evaluator_persona} Describes the intended role, expertise, and evaluative perspective of the person or entity filling out the assessment.
+Please answer the following questions using a scientific and evidence-based approach. Support your responses with relevant data, statistics, or credible research findings where applicable:
+Problem Validation:
+Using the information provided, to what extent is the problem addressed problem is  a real and significant issue? Please provide examples, evidence, or data that substantiate this problem.
+Persona Validation:
+Please describe how the initial target customer experiences the problem. Include detailed examples that show how this persona is affected by the issue. Are there other types of users or customer groups who also face this problem? If so, please explain who they are and how their experiences differ or are similar.
+Solution Description and Thesis Validation:
+Explain how the proposed solution addresses the identified problem for the target customer. Discuss in detail the strengths of the solution and how well it solves the problem. If there are any weaknesses or limitations, please describe those as well.
+Market Size and Risk:
+Provide an estimate of the market size for this problem and solution within the relevant geographic region. Please include the Total Addressable Market (TAM), the Serviceable Available Market (SAM), and the Serviceable Obtainable Market (SOM). Support your estimates with reasoning, data, or sources where possible.
+Competitive Landscape and Risks:
+Identify the main competitors offering solutions for this problem within the market sector. For each competitor, describe their key strengths, customer base, and how they might pose risks or challenges to the solution’s success.
+Output text in plain format only, using simple paragraphs without markdown, asterisks, headers, bullet points, or decorative characters. Keep whitespace minimal, avoid separators like lines or dashes, and if lists are needed, use simple numbered items.
