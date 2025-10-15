@@ -2,7 +2,6 @@
 .env
 
 # Ignore folders
-ResponseFiles/
 PromptFiles/
 venv/
 
