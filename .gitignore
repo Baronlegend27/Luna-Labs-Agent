@@ -1,4 +1,4 @@
 .env
-venv/
+new_venv/
 __pycache__/
 PromptFiles/
