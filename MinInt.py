@@ -23,5 +23,27 @@ def list_buckets():
         for bucket in buckets:
             print(f" - {bucket.name}")
 
+def list_files_in_bucket(bucket_name):
+    """Print all file names in the given bucket."""
+    client = Minio(
+        MINIO_ENDPOINT,
+        access_key=ACCESS_KEY,
+        secret_key=SECRET_KEY,
+        secure=SECURE
+    )
+
+    try:
+        objects = client.list_objects(bucket_name)
+        print(f"Files in bucket '{bucket_name}':")
+        empty = True
+        for obj in objects:
+            print(f" - {obj.object_name}")
+            empty = False
+        if empty:
+            print(" (No files found in this bucket.)")
+    except Exception as e:
+        print(f"Error listing files in bucket '{bucket_name}': {e}")
+
+
 if __name__ == "__main__":
     list_buckets()
