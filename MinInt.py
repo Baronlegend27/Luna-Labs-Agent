@@ -94,7 +94,18 @@ def read_minio_file(bucket_name: str, object_name: str, client: Minio) -> pd.Dat
 
 
 if __name__ == "__main__":
-    list_files_in_bucket("contextdata")
+    #list_files_in_bucket("contextdata")
 
     contracts_and_tech = read_minio_file(CONTEXT_BUCKET, CONTRACTS_AND_TECH, client)
-    
+
+    awards = read_minio_file(CONTEXT_BUCKET, AWARDS, client)
+
+    patent_stat = read_minio_file(CONTEXT_BUCKET, PATENT_STATUS, client)
+
+    print(contracts_and_tech[["ID", "Contract Number", "Phase", "Full Title", "Status", "Projected End Date"]])
+
+    print(awards[["Award Title", "Phase", "Contract", "Contract End Date","Research Area Keywords"]])
+
+    print(patent_stat[["Case Number","Patent Number", "Status", "Filing Date" ,"Expiration Date"]])
+
+
